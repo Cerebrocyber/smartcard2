@@ -371,7 +371,7 @@
   align-items: center;
   padding: 0;
   margin: 0;
-  height: 70%; /* Defina a altura desejada */
+  height: 80%; /* Defina a altura desejada */
   max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
 }
 
