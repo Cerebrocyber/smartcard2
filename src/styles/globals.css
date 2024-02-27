@@ -349,16 +349,29 @@
 }
 
 .homepage {
+  position: relative;
+  height: 100vh;
+}
+
+.homepage-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: radial-gradient(circle, #0b006b 100%, #1500d4 100%);
+  background-attachment: fixed;
+  z-index: -1; /* Coloca a camada do fundo atrás do conteúdo */
+}
+
+.homepage-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #cf8e00;
-  padding: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: -75px;
-  margin-left: 0px;
-  height: 100vh;
+  padding: 0;
+  margin: 0;
+  height: 90%; /* Defina a altura desejada */
+  max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
 }
+
