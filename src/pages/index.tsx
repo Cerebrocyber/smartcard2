@@ -8,8 +8,8 @@ const Home = () => (
         <Image
           src='/assets/images/smartcard.webp'
           alt='logo'
-          width={500}
-          height={500}
+          width={700}
+          height={700}
           className='logosmart'
         />
     </Link>
