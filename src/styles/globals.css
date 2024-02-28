@@ -234,33 +234,6 @@
   }
 }
 
-.menupage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #cf8e00;
-  padding: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  height: 100vh;
-}
-
-.pastelpage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #cf8e00;
-  padding: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  height: 100vh;
-}
 
 .end-of-page {
   margin-top: 1000px;
@@ -371,7 +344,48 @@
   align-items: center;
   padding: 0;
   margin: 0;
-  height: 80%; /* Defina a altura desejada */
+  height: 70%; /* Defina a altura desejada */
   max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
 }
 
+.homepastel {
+  position: relative;
+  height: 100vh;
+}
+
+.homepastel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #920000 100%, #f30000 100%);
+  background-attachment: fixed;
+  z-index: -1; /* Coloca a camada do fundo atrás do conteúdo */
+}
+
+.homepastel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2860px 0 0 0; /* Adicione padding-top para descer o conteúdo */
+  margin: 0;
+  height: 150%; /* Defina a altura desejada */
+  max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
+}
+
+.pastelmenu {
+  /* Estilos para o contêiner .pastelmenu */
+}
+
+.image-container {
+  padding-top: 20px; /* Adicione espaço acima da imagem */
+  padding-bottom: 20px; /* Adicione espaço abaixo da imagem */
+}
+
+.pastelmenu-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
