@@ -4,13 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Pasteldobairro = () => (
-  <div className='homepastel'>
-    <div className="homepastel-background"></div>
-    <section className='homepastel-content'>
-      
-      
-
-      <div className="pastelmenu">
+  <section className='homepastel-content'>
+    <div className="pastelmenu">
   <div className="image-container">
     <Image
       src='/assets/images/pastelmenu1.webp'
@@ -57,7 +52,6 @@ const Pasteldobairro = () => (
   </div>
 </div>
     </section>
-  </div>
-);
+ );
 
 export default Pasteldobairro;
