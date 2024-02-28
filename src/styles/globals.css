@@ -369,7 +369,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2250px 0 0 0; /* Adicione padding-top para descer o conteúdo */
+  padding: 3000px 0 0 0; /* Adicione padding-top para descer o conteúdo */
   margin: 0;
   height: 150%; /* Defina a altura desejada */
   max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
