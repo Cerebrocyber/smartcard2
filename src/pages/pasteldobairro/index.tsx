@@ -70,42 +70,42 @@ const Pasteldobairro = () => (
       <div className="pastelmenu">
   <div className="image-container">
     <Image
-      src='/assets/images/pastelmenu1.png'
+      src='/assets/images/pastelmenu1.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
     <Image
-      src='/assets/images/pastelmenu2.png'
+      src='/assets/images/pastelmenu2.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
     <Image
-      src='/assets/images/pastelmenu3.png'
+      src='/assets/images/pastelmenu3.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
     <Image
-      src='/assets/images/pastelmenu4.png'
+      src='/assets/images/pastelmenu4.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
     <Image
-      src='/assets/images/pastelmenu5.png'
+      src='/assets/images/pastelmenu5.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
     <Image
-      src='/assets/images/pastelmenu6.png'
+      src='/assets/images/pastelmenu6.webp'
       alt=''
       width={650}
       height={150} /* Defina a altura desejada */
