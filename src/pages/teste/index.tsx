@@ -1,7 +1,4 @@
-import { Inter } from "next/font/google";
-import styles from '../styles/pasteldobairro.module.css';
 import Image from "next/image";
-import Link from "next/link";
 
 const Pasteldobairro = () => (
   <section className='teste-content'>
