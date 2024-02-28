@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Pasteldobairro = () => (
   <section className='teste-content'>
@@ -46,6 +47,17 @@ const Pasteldobairro = () => (
       className='pastelmenu-image'
     />
   </div>
+  <div className="whatsbot">
+    <Link href='https://wa.link/q9m70o'>
+        <Image
+          src='/assets/images/whats.webp'
+          alt='logo'
+          width={100}
+          height={100}
+          className='whatsb'
+        />
+    </Link>
+    </div>
   </section>
  );
 
