@@ -1,23 +1,21 @@
-import { Inter } from "next/font/google";
-import styles from '../styles/pasteldobairro.module.css';
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
-const Pasteldobairro = () => (
+const Home = () => (
   <div className='homepastel'>
     <div className="homepastel-background"></div>
     <section className='homepastel-content'>
       <Link href='/' className='flex gap-2 flex-center'>
         <Image
-          src='/assets/images/pasteldobairro.webp'
+          src='/assets/images/logopastel.webp'
           alt='logo'
           width={700}
           height={700}
           className='logopastel'
         />
       </Link>
-      <p className="fraselogo">
-        OS PASTÉIS MAIS SABOROSOS
+      <p className="fraselogopastel">
+        FAÇA JÁ SUA ENCOMENDA!
       </p>
       <br className='max-md:hidden' />
       <div className="bots">
@@ -67,54 +65,20 @@ const Pasteldobairro = () => (
           />
         </Link>
       </div>
-      <div className="pastelmenu">
-  <div className="image-container">
-    <Image
-      src='/assets/images/pastelmenu1.webp'
-      alt=''
-      width={700}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-    <Image
-      src='/assets/images/pastelmenu2.webp'
-      alt=''
-      width={650}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-    <Image
-      src='/assets/images/pastelmenu3.webp'
-      alt=''
-      width={650}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-    <Image
-      src='/assets/images/pastelmenu4.webp'
-      alt=''
-      width={650}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-    <Image
-      src='/assets/images/pastelmenu5.webp'
-      alt=''
-      width={650}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-    <Image
-      src='/assets/images/pastelmenu6.webp'
-      alt=''
-      width={650}
-      height={150} /* Defina a altura desejada */
-      className='pastelmenu-image'
-    />
-  </div>
-</div>
+      <Image
+        src='/assets/images/qrcode.svg'
+        alt=''
+        width={60}
+        height={60}
+        className='qrcode'
+      />
+      <Link href='/pasteldobairromenu'>
+        <span className="button">
+          <p className="textbtpastel">CARDÁPIO</p>
+        </span>           
+      </Link>      
     </section>
   </div>
 );
 
-export default Pasteldobairro;
+export default Home;
