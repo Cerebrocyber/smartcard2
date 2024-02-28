@@ -70,7 +70,7 @@ const Pasteldobairro = () => (
       <div className="pastelmenu">
   <div className="image-container">
     <Image
-      src='https://res.cloudinary.com/do3pkg9to/image/upload/v1709087256/pastelmenu1_iw4lnp.webp'
+      src='/assets/images/pastelmenu1.webp'
       alt=''
       width={700}
       height={150} /* Defina a altura desejada */
