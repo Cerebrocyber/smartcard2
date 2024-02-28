@@ -72,7 +72,7 @@ const Pasteldobairro = () => (
     <Image
       src='/assets/images/pastelmenu1.webp'
       alt=''
-      width={650}
+      width={700}
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
