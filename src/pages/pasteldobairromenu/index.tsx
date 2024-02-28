@@ -48,7 +48,7 @@ const Pasteldobairro = () => (
     />
   </div>
   <div className="whatsbot">
-    <Link href='https://wa.link/q9m70o'>
+    <Link href='https://api.whatsapp.com/send?phone=5514996232860&text=Gostaria%20de%20fazer%20um%20pedido!'>
         <Image
           src='/assets/images/whats.webp'
           alt='logo'
