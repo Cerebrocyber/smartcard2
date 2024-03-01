@@ -76,16 +76,7 @@ const Home = () => (
         <span className="button">
           <p className="textbt">SAIBA MAIS</p>
         </span>           
-      </Link>      
-      <Link href='pasteldobairro' className='flex gap-2 flex-center' style={{ color: 'yellow' }}>
-          <h1>P</h1>
-        </Link>
-        <Link href='jacoiaburguers' className='flex gap-2 flex-center' style={{ color: 'yellow' }}>
-          <h1>J</h1>
-        </Link>
-        <Link href='pastelariacuruzu' className='flex gap-2 flex-center' style={{ color: 'yellow' }}>
-          <h1>C</h1>
-        </Link>
+      </Link>
     </section>
   </div>
 );
