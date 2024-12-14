@@ -25,6 +25,13 @@ const Pasteldobairro = () => (
       height={150} /* Defina a altura desejada */
       className='pastelmenu-image'
     />
+     <Image
+      src='/assets/images/pastelmenunatal4.webp'
+      alt=''
+      width={650}
+      height={150} /* Defina a altura desejada */
+      className='pastelmenu-image'
+    />
   </div>
   <div className="whatsbot">
     <Link href='https://api.whatsapp.com/send?phone=5514996232860&text=Gostaria%20de%20fazer%20um%20pedido!'>
