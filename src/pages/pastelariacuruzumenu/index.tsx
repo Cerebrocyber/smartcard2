@@ -76,7 +76,7 @@ const Pastelariacuruzumenu = () => (
     />
   </div>
   <div className="whatsbot">
-    <Link href='https://api.whatsapp.com/send?phone=5514996232860&text=Gostaria%20de%20fazer%20um%20pedido!'>
+    <Link href='https://api.whatsapp.com/send?phone=5514996814646&text=Gostaria%20de%20fazer%20um%20pedido!'>
         <Image
           src='/assets/images/whats.webp'
           alt='logo'
